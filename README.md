@@ -18,3 +18,10 @@
 
 接下來需要去新增一個token(只能用一次的授權)，路徑為settings/Developer settings/Personal access tokens/Fine-grained tokens(Beta)/Generate new token
 
+在其中的Repository access，要點選Only select repositories，載選擇該Repositories
+
+同時其中的Permissions，將裏頭能read and write的選項全部勾選
+
+最後在第9步中需要打token name(在Generate new token時設定的token name)，以及密碼為Generate new token最後出來的URL
+
+即可成功push資料上來
